@@ -2,8 +2,10 @@
 import {formDirectives, Component, View, bootstrap} from "angular2/angular2";
 
 
+
+
 @Component({
-    selector: "home"
+    selector: "home",
 })
 @View({
     directives: [formDirectives],
@@ -15,6 +17,7 @@ import {formDirectives, Component, View, bootstrap} from "angular2/angular2";
 })
 export default class Home{
     name:string = "ng-hackathon";
+
 
     onButtonClick(value){
         alert(value);
